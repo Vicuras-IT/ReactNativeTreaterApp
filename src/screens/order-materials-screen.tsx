@@ -6,7 +6,7 @@ import {
   TextInput,
   View,
   type StyleProp,
-  type ViewStyle,
+  type TextStyle,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -747,7 +747,7 @@ function FieldLabel({ children }: { children: React.ReactNode }) {
   );
 }
 
-const inputBase: ViewStyle & { color: string; fontFamily: string; fontSize: number } = {
+const inputBase: TextStyle = {
   backgroundColor: Colors.inputBg,
   borderWidth: 1,
   borderColor: 'rgba(160,172,255,0.16)',

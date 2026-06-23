@@ -7,7 +7,7 @@ import {
   TextInput,
   View,
   type StyleProp,
-  type ViewStyle,
+  type TextStyle,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
@@ -1308,7 +1308,7 @@ function FieldLabel({
   style,
 }: {
   children: React.ReactNode;
-  style?: StyleProp<ViewStyle>;
+  style?: StyleProp<TextStyle>;
 }) {
   return (
     <Txt
